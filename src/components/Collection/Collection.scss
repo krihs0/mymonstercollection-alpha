@@ -1,0 +1,54 @@
+.collection{
+    width: 100%;
+    height: 100%;
+    padding: 5rem;
+}
+.collection__h1{
+    font-size: 3.8rem;
+    color: #adbac7;
+    margin-bottom: 2rem; 
+}
+.collection__header{
+    display: flex;
+    gap: 2rem;
+    height: 6rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #464e58;
+}
+.collection__header__input{
+    height: 4rem;
+    width: 100%;
+    font: inherit;
+}
+.collection__header__select{
+    font-family: inherit;
+    padding: 0 1rem;
+    background: #373e47;
+    color: #adbac7;
+    border: 1px solid #464e58;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.collection__header__select__option{
+    background: #373e47;
+    color: #adbac7;
+    font-family: inherit;
+}
+.collection__header__button{
+    background: #373e47;
+    color: #adbac7;
+    border: 1px solid #464e58;
+    aspect-ratio: 1/1;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    font-size: 2.2rem;
+    cursor: pointer;
+}
+
+.collection__wrapper{
+    padding: 5rem;
+    color: #adbac7;
+}

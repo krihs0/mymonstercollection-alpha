@@ -1,0 +1,53 @@
+.finder{
+    width: 100%;
+    height: 100%;
+    padding: 5rem;
+}
+
+.finder__header{
+    display: flex;
+    gap: 2rem;
+    height: 6rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #464e58;
+}
+.finder__header__input{
+    height: 4rem;
+    width: 100%;
+    font: inherit;
+}
+.finder__header__select{
+    font-family: inherit;
+    padding: 0 1rem;
+    background: #373e47;
+    color: #adbac7;
+    border: 1px solid #464e58;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.finder__header__select__option{
+    background: #373e47;
+    color: #adbac7;
+    font-family: inherit;
+}
+.finder__header__button{
+    background: #373e47;
+    color: #adbac7;
+    border: 1px solid #464e58;
+    aspect-ratio: 1/1;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    font-size: 2.2rem;
+    cursor: pointer;
+}
+
+.finder__wrapper{
+    padding: 3rem;
+    display: grid;
+    gap: 3rem;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, minmax(30rem, 35rem));
+}

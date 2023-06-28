@@ -1,0 +1,37 @@
+.popupcenterandclose {
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 999;
+}
+.shopitem__info__price__info__popup{
+    font-family: 'Roboto', sans-serif;
+    background: #22272e;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.6);
+    width: 50rem;
+    padding: 5rem;
+    border-radius: 6px;
+}
+.shopitem__info__price__info__popup__title{
+    font-size: 5rem;
+}
+.shopitem__info__price__info__popup__disclaimer{
+    margin-bottom: 2rem;
+}
+.shopitem__info__price__info__popup__text{
+
+}
+.shopitem__info__price__info__popup__learnmore{
+    margin-top: 2rem;
+    color: #539bf5;
+    text-decoration: none;
+    &:hover{
+        text-decoration: underline;
+    }
+}

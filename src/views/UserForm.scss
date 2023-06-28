@@ -1,0 +1,51 @@
+.userform{
+    padding: 5rem;
+}
+.userform__title{
+    font-weight: 400;
+    color: #424c55;
+}
+.userform__wrapper{
+    padding: 2rem 0;
+}
+.userform__wrapper__form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 60rem;
+}
+.userform__wrapper__form__input{
+    height: 6rem;
+    aspect-ratio: 4/1;
+    padding-left: 1rem;
+    font-size: 1.6rem;
+    border: 1px solid #d9dfe6;
+    &:focus{
+        border-bottom: 3px solid #0057ff;
+        outline: none;
+    }
+}
+.userform__wrapper__form__button{
+    height: 6rem;
+    width: 16rem;
+    padding: 0 2.5rem;
+    border: none;
+    background: #0057ff;
+    color:  white;
+    font-size: 2rem;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.loginform__errors{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1rem;
+    background: red;
+    width: fit-content;
+    border-radius: 1rem;
+    .loginform__error{
+        color: white;
+    }
+}

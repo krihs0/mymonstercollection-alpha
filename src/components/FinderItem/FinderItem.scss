@@ -1,0 +1,48 @@
+.finderitem{
+    color: #adbac7;
+    position: relative;
+    width: 100%;
+    padding: 2rem;
+    border: 1px solid #464e58;
+    border-radius: 3px;
+}
+.finderitem__select{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: #373e47;
+    border: none;
+    color: #adbac7;
+    padding: 0.5rem 1rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    font-family: inherit;
+    letter-spacing: 1px;
+}
+.finderitem__select__option{
+
+}
+.finderitem__figure{
+
+}
+.finderitem__info{
+
+}
+.finderitem__info__name{
+
+}
+.finderitem__info__series{
+
+}
+.finderitem__info__contents{
+
+}
+.finderitem__info__actionwrapper{
+
+}
+.finderitem__info__actionwrapper__find{
+
+}
+.finderitem__info__actionwrapper__add{
+    cursor: pointer;
+}

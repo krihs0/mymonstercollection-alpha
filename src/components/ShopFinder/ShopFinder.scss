@@ -1,0 +1,46 @@
+.shopfinder{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    color: #adbac7;
+    padding: 0 5rem;
+    justify-content: center;
+}
+.shopfinder__leftpane{
+    width: 40%;
+    height: 100%;
+    padding: 5rem;
+}
+.shopfinder__leftpane__figure{  
+
+}
+.shopfinder__leftpane__info{
+
+}
+.shopfinder__leftpane__info__name{
+
+}
+.shopfinder__leftpane__info__series{
+
+}
+.shopfinder__leftpane__info__contents{
+
+}
+
+.shopfinder__rightpane{
+    width: 60%;
+    height: 100%;
+    padding: 5rem;
+    display:  flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.shopfinder__noitem{
+    width: 60%;
+    height: 100%;
+    padding: 5rem;
+    display:  flex;
+    flex-direction: column;
+    gap: 3rem;
+}

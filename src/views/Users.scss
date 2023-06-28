@@ -1,0 +1,68 @@
+.users{
+    padding: 5rem;
+}
+.users__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6rem;
+}
+.users__header__title{
+    font-weight: 400;
+    color: #424c55;
+}
+.users__header__newuserbutton{
+    border: none;
+    font-size: 18px;
+    font-family: inherit;
+    color: black;
+    text-decoration: none;
+    background: #cdd9e5;
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+}
+
+table {
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+table > thead > tr > th {
+    text-align: left;
+    padding: 0.5rem 0.5rem;
+    background-color: #cdd9e5;
+    font-weight: 500;
+}
+
+table > tbody > tr > td {
+    padding: 1rem 0.5rem;
+    border-bottom: 1px solid #efefef;
+    white-space: nowrap;
+    color: #cdd9e5;
+}
+
+.actionbuttonswrapper{
+    display: flex;
+    gap: 1rem;
+}
+.edituserbutton{
+    color:  white;
+    background: #0057ff;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 2rem;
+    padding: 0 1rem;
+}
+.deleteuserbutton{
+    color: #0057ff;
+    text-decoration: underline #0057ff;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.text-center{
+    text-align: center;
+}
